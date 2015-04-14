@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+    .imgwrapper{
+        visibility: hidden;
+    }
+}
+
+/* 
+    Created on : Apr 13, 2015, 10:08:42 PM
+    Author     : Mark N Carpenter Jr
+*/
+

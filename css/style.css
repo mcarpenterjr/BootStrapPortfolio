@@ -1,0 +1,75 @@
+* {
+    font-family: Droid Sans, sans-serif;
+}
+
+body{
+    background-color: #161819;
+}
+
+.container-fluid{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.name-space{
+    border: 2px;
+    border-radius: 15px;
+    border-style: outset;
+    border-color: #384952;
+    background: #1c2d37;
+    padding: 5px;
+}
+
+.name-title{
+    text-align: right;
+    font-family: Bangers, sans-serif;
+    font-size: 48px;
+    color: #3d5d4a;
+    line-height: 5px;
+}
+
+.name-title h1{
+    line-height: 5px;
+    font-size: inherit;
+}
+
+.name-title h3{
+    font-family: Droid Sans, sans-serif;
+    font-size: 18px;
+    line-height: inherit;
+}
+
+.headshot{
+    border: 1px;
+    border-style: inset;
+    border-color: #384952;
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 120px;
+}
+
+.carousel-inner{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-height: 325px !important;
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    .name-title h1{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 399px){
+    .name-title h1{
+        font-size: 24px;
+    }
+}
+
+/* 
+    Created on : Apr 12, 2015, 1:44:21 PM
+    Author     : Mark N Carpenter Jr
+*/
+
